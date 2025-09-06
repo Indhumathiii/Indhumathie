@@ -1,0 +1,202 @@
+{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  background: #f4f4f4;
+
+  color: #333;
+
+}
+
+/* Navigation */
+
+header {
+
+  background: #222;
+
+  color: #fff;
+
+  padding: 1rem 2rem;
+  position: fixed;
+
+  width: 100%;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+.logo {
+
+  float: left;}
+
+.nav-links {
+
+list-style: none;
+
+float: right;
+
+}
+
+.nav-links li {
+
+display: inline;
+
+margin: 0 15px;
+  }
+
+.nav-links a {
+
+color: #fff;
+
+text-decoration: none;
+
+transition: color 0.3s;
+
+}
+
+.nav-links a:hover {
+
+color: #ff9800
+  }
+
+/* Hero */
+
+.hero {
+
+background: url("images/hero-bg.jpg") no-repeat center center/cover;
+
+height: 100vh;
+
+display:
+
+flex;
+
+justify-content: center;
+
+align-items: center;
+  
+  color: black;
+
+text-align: center;
+
+}
+
+.hero h2 span {
+
+color: #ff9800;
+
+}
+
+.btn {
+
+display: inline-block;
+
+  margin-top: 15px;
+
+padding: 10px 20px;
+
+background: #ff9800;
+
+color: white;
+
+border-radius: 5px;
+
+text-decoration: none;
+
+}
+
+.btn:hover {
+  
+  background: #e68900;
+}
+ 
+/* Sections */
+
+section {
+
+padding: 80px 20px;
+
+text-align: center;
+
+}
+
+.contact form {
+
+max-width: 500px;
+  
+  margin: auto;
+
+display: flex;
+
+flex-direction: column;
+  
+}
+
+.contact input,
+
+.contact textarea {
+
+margin: 10px 0;
+
+padding: 10px;
+  
+  border-radius: 5px;
+
+border: 1px solid #ccc;
+  
+}
+
+.contact button {
+
+padding: 10px;
+
+border: none;
+
+background: #ff9800;
+
+color: white;
+  
+ cursor: pointer;
+
+border-radius: 5px;
+
+}
+
+.contact button:hover {
+
+background: #e68900;
+
+}
+
+/* Footer */
+
+footer {
+  
+background: #222;
+  
+color: white;
+  
+text-align: center;
+  
+padding: 20px;
+  
+}
+  
+  
+
+
+  
